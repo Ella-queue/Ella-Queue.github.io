@@ -62,9 +62,9 @@ a {
     margin-top: 20px;
     padding: 10px 10px 30px 40px;
     text-align: left;
-    border: 5px solid transparent;
-    border-image: url(../images/div_border.png) 15 round;
-    border-image-outset: 1px;
+    border: 15px solid transparent;
+    border-image: url(../images/main_div_border.png) 30 round;
+    border-image-outset: 5px;
     box-shadow: 5px 5px 10px var(--secondary-div-colour);
 }
 
@@ -89,4 +89,19 @@ footer {
 
 .footerInfo {
     font-size: 75%;
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 100%;
+    }
+
+    .mainDiv {
+        margin: 20px 10% 0% 10%;
+        font-size: 115%;
+    }
+
+    /* main {
+        text-align: center;
+    } */
 }
