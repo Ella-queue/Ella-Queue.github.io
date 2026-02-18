@@ -12,6 +12,8 @@ body {
     background-image: url(../images/bg.png);
     background-size: 20px;
     background-repeat: repeat;
+    font-size: 150%;
+    
 }
 
 header {
@@ -29,7 +31,7 @@ header {
 }
 
 #tagline {
-    font-size: 75%;
+    font-size: 100%;
     margin-top: -10px;
     font-weight: bold;
 }
@@ -41,6 +43,7 @@ nav {
         text-decoration: none;
         padding: 4px 6px 4px 6px;
         margin-right: 5px;
+        font-size: 125%;
     }
 }
 
@@ -86,14 +89,4 @@ footer {
 
 .footerInfo {
     font-size: 75%;
-}
-
-@media (max-width: 750px) {
-    body {
-        font-size: 150%;
-    }
-    
-    #tagline {
-        font-size: 60%;
-    }
 }
