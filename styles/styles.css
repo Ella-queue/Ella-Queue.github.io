@@ -1,0 +1,89 @@
+:root {
+    --bg-main-colour: #D1B8D6;
+    --main-div-colour: #261c29;
+    --secondary-div-colour: #433347;
+    --main-text-colour: #fbf4fc;
+    --secondary-text-colour: #e4bdeb;
+    --header-bg-colour: #fbf4fcae;
+}
+
+body {
+    background-color: var(--bg-main-colour);
+    background-image: url(../images/bg.png);
+    background-size: 20px;
+    background-repeat: repeat;
+}
+
+header {
+    background-color: var(--header-bg-colour);
+    color: var(--main-div-colour);
+    padding: 3px 10px 0px 10px;
+    margin: -10px 0px 0px -10px;
+    width: 100%;
+    nav {
+        background-color: var(--secondary-div-colour);
+        padding: 4px 10px 4px 10px;
+        margin: -10px 0px 0px -10px;
+        width: 100%;
+    }
+}
+
+#tagline {
+    font-size: 75%;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+nav {
+    a {
+        background-color: var(--main-div-colour);
+        color: var(--main-text-colour);
+        text-decoration: none;
+        padding: 4px 6px 4px 6px;
+        margin-right: 5px;
+    }
+}
+
+main {
+    color: var(--main-text-colour);
+    text-align: center;
+}
+
+a {
+    color: var(--secondary-text-colour);
+}
+
+.mainDiv {
+    background-color: var(--main-div-colour);
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 10px 30px 40px;
+    text-align: left;
+    border: 5px solid transparent;
+    border-image: url(../images/div_border.png) 15 round;
+    border-image-outset: 1px;
+    box-shadow: 5px 5px 10px var(--secondary-div-colour);
+}
+
+ul li {
+    list-style-type: ' ★   ';
+}
+
+footer {
+    background-color: var(--main-div-colour);
+    color: var(--main-text-colour);
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 5px solid transparent;
+    border-image: url(../images/div_border.png) 10 round;
+    border-image-outset: 5px;
+}
+
+.footerInfo {
+    font-size: 75%;
+}
