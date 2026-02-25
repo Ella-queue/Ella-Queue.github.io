@@ -1,7 +1,7 @@
 :root {
     --bg-main-colour: #D1B8D6;
     --main-div-colour: #261c29;
-    --secondary-div-colour: #433347;
+    --secondary-div-colour: #392a3c;
     --main-text-colour: #fbf4fc;
     --secondary-text-colour: #e4bdeb;
     --header-bg-colour: #fbf4fcae;
@@ -101,7 +101,7 @@ footer {
         font-size: 115%;
     }
 
-    /* main {
-        text-align: center;
-    } */
+    h1, #tagline {
+        padding-left: 25px;
+    }
 }
